@@ -1,4 +1,4 @@
-# Disallow AI Agents
+# Disallow AI Crawlers
 
 This `robots.txt` file is designed to include all well-known crawlers that collect data for AI training and need to be disallowed from crawling your web server.
 We've tried to keep it up to date with what's already known from [Known Agents](https://knownagents.com/agents) sites.
