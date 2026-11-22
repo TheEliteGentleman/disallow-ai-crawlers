@@ -1,9 +1,11 @@
 # Disallow AI Agents
 
-This `robots.txt` file is designed to list all well-known AI (related) Agent crawlers that need to be disallowed from crawling your web server.
-We've tried to keep it up to date with what's already known from [Known Agents](https://knownagents.com/) sites.
+This `robots.txt` file is designed to include all well-known crawlers that collect data for AI training and need to be disallowed from crawling your web server.
+We've tried to keep it up to date with what's already known from [Known Agents](https://knownagents.com/agents) sites.
 
-You're more than welcome to include other AI-related crawlers that you believe are essential to be included in the list.
+Blocks crawlers that collect content for AI training, AI search indexes, AI assistants, and AI data/scraping APIs. Regular search engines (Googlebot, Bingbot, Applebot, etc.) are NOT blocked, so normal search visibility is unaffected.
 
-We also do not guarantee that it will stop future AI web crawlers.
+You're welcome to include other AI-related crawlers you believe should be on the list.
+
+We also don't guarantee it will stop future AI web crawlers.
 
